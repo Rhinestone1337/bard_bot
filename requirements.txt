@@ -1,4 +1,4 @@
-discord~=2.2.3
+discord
 python-dotenv
-bardapi~=0.1.2
+bardapi
 requests
