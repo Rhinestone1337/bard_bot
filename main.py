@@ -17,7 +17,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 @bot.command()
 async def bard(ctx, *,  arg):
     ans = Bard().get_answer(arg)['content']
-    await ctx.send(ans)
+    embed = discord.Embed(title='Bard answers', description=ans)
+    await ctx.send(embed=embed)
 
 
 if __name__ == '__main__':
