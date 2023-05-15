@@ -1,0 +1,4 @@
+discord~=2.2.3
+python-dotenv~=1.0.0
+bardapi~=0.1.2
+requests~=2.30.0
