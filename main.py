@@ -21,5 +21,4 @@ async def bard(ctx, *,  arg):
     await ctx.send(embed=embed)
 
 
-if __name__ == '__main__':
-    bot.run(DISCORD_TOKEN)
+bot.run(DISCORD_TOKEN)
